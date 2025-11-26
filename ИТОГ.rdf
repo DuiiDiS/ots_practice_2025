@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#"
+     xml:base="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7x1HoW5CJLC5SCGfJ1llwS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7x1HoW5CJLC5SCGfJ1llwS">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">хочет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88mzUa65dPwV68u3ifMlK4 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R88mzUa65dPwV68u3ifMlK4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">показать</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8emcK6lZyztlDP2xLJzrRB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8emcK6lZyztlDP2xLJzrRB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">событие</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KtcZASwMiXmCMfAbxLY1Q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9KtcZASwMiXmCMfAbxLY1Q">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">действие</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9kqbc8WvL052joFyGZyUgA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9kqbc8WvL052joFyGZyUgA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">нужен</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBE1tQAzZzKOeBJPj4owJAx -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBE1tQAzZzKOeBJPj4owJAx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">для</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQAU0KqqTkZlelJqi3sCIx -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBQAU0KqqTkZlelJqi3sCIx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">что</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5Bf87SoQCTo6oD2fUl5SI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC5Bf87SoQCTo6oD2fUl5SI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">какой</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSmbN4QCwG1jmGtU4RBDUq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCSmbN4QCwG1jmGtU4RBDUq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">занятие</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">процесс</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDDtL5dTldNIlRw8SW7ewGV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDDtL5dTldNIlRw8SW7ewGV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">имеет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSYbNsQZk8gVSmm1FJGMJ4 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDSYbNsQZk8gVSmm1FJGMJ4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">необходимо</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLLfmGuJIu8o3y8P6fy2Hr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RLLfmGuJIu8o3y8P6fy2Hr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">какая</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1JBTggcyl8wJ9vu5Crh4N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1JBTggcyl8wJ9vu5Crh4N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9kqbc8WvL052joFyGZyUgA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9vAIbTSkE4fXjuyXsqKt47"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Развлечение</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7UU3wFCLz0qHeQWIKvRDtH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7UU3wFCLz0qHeQWIKvRDtH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7x1HoW5CJLC5SCGfJ1llwS"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1JBTggcyl8wJ9vu5Crh4N"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Зарегистрированный</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZWzT70PsHVPXLNafWF6Sv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZWzT70PsHVPXLNafWF6Sv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">watch_click</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OtM6LoZ75Hqbxu9CiXJPd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8OtM6LoZ75Hqbxu9CiXJPd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1JBTggcyl8wJ9vu5Crh4N"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Начало_просмотра</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8b4zKMQfKPgqlH2ezI0xbs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8b4zKMQfKPgqlH2ezI0xbs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9KtcZASwMiXmCMfAbxLY1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBHnAk9IRgLf1FPMLhwALPN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBE1tQAzZzKOeBJPj4owJAx"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8OtM6LoZ75Hqbxu9CiXJPd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Выбор_фильма</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Wj71kkXL4IVP6JhbfrwNG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Wj71kkXL4IVP6JhbfrwNG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBjo7iStQfPk9TSgBER3Lmz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Прокрутка_ленты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDDtL5dTldNIlRw8SW7ewGV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCXt7HY7BMaze7HJnz9l9M8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">кинопоиск</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vAIbTSkE4fXjuyXsqKt47 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vAIbTSkE4fXjuyXsqKt47">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9KtcZASwMiXmCMfAbxLY1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8b4zKMQfKPgqlH2ezI0xbs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9kqbc8WvL052joFyGZyUgA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Wj71kkXL4IVP6JhbfrwNG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9kqbc8WvL052joFyGZyUgA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCDje8clNYoIovKtM9ZsaAn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Поиск_контента</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHnAk9IRgLf1FPMLhwALPN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHnAk9IRgLf1FPMLhwALPN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R88mzUa65dPwV68u3ifMlK4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Ri0G3rBOlKtzEAp1kJYiEw"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9KtcZASwMiXmCMfAbxLY1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDgYjj9QpSnuwshgFdsOn5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RKv2NQXxsIvWGYj32r6JeT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Клик_по_фильму</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjo7iStQfPk9TSgBER3Lmz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjo7iStQfPk9TSgBER3Lmz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">main_scroll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDje8clNYoIovKtM9ZsaAn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCDje8clNYoIovKtM9ZsaAn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R88mzUa65dPwV68u3ifMlK4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDapG6t5UQou27LY8rcUedL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDM0hnel6T6AFm3JQ6psfN7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Ввод_поискового_запроса</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXt7HY7BMaze7HJnz9l9M8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXt7HY7BMaze7HJnz9l9M8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC5Bf87SoQCTo6oD2fUl5SI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7UU3wFCLz0qHeQWIKvRDtH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC5Bf87SoQCTo6oD2fUl5SI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RPCqh2shXvw4PRCK6FUsPq"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">USER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDM0hnel6T6AFm3JQ6psfN7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDM0hnel6T6AFm3JQ6psfN7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">search_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDapG6t5UQou27LY8rcUedL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDapG6t5UQou27LY8rcUedL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">Поисковая_строка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgYjj9QpSnuwshgFdsOn5c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgYjj9QpSnuwshgFdsOn5c">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R88mzUa65dPwV68u3ifMlK4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RLtEbNOKVRGbqKlxzEPLRl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9KtcZASwMiXmCMfAbxLY1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8OtM6LoZ75Hqbxu9CiXJPd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAhNGDJXtuVMlJMITopyKN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZWzT70PsHVPXLNafWF6Sv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Клик_смотреть</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKv2NQXxsIvWGYj32r6JeT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKv2NQXxsIvWGYj32r6JeT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">moviecard_click</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLtEbNOKVRGbqKlxzEPLRl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLtEbNOKVRGbqKlxzEPLRl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">Кнопка_смотреть</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPCqh2shXvw4PRCK6FUsPq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPCqh2shXvw4PRCK6FUsPq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDSYbNsQZk8gVSmm1FJGMJ4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7UU3wFCLz0qHeQWIKvRDtH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="ru">Гость</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ri0G3rBOlKtzEAp1kJYiEw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ri0G3rBOlKtzEAp1kJYiEw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+        <rdfs:label xml:lang="ru">Карточка_фильма</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#зарегистрирован -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#зарегистрирован">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#нужна_регистрация_для_просмотра -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#нужна_регистрация_для_просмотра">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#производит_действие -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#производит_действие">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZurLpLBwNKQFgspviWbBJ"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#scroll">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#card">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#click">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#search">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#input">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#registered">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/R7UU3wFCLz0qHeQWIKvRDtH"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/R9Wj71kkXL4IVP6JhbfrwNG"/>
+                                <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#scroll"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/R9vAIbTSkE4fXjuyXsqKt47"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/Ri0G3rBOlKtzEAp1kJYiEw"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#card"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RBHnAk9IRgLf1FPMLhwALPN"/>
+                                <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#click"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/R8b4zKMQfKPgqlH2ezI0xbs"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#card"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S4</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RDapG6t5UQou27LY8rcUedL"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#search"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RCDje8clNYoIovKtM9ZsaAn"/>
+                                <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#input"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/R9vAIbTSkE4fXjuyXsqKt47"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#search"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S5</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RCDje8clNYoIovKtM9ZsaAn"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#input"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RDapG6t5UQou27LY8rcUedL"/>
+                                <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#search"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/R9vAIbTSkE4fXjuyXsqKt47"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#search"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RPCqh2shXvw4PRCK6FUsPq"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RDgYjj9QpSnuwshgFdsOn5c"/>
+                                <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#click"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#нужна_регистрация_для_просмотра"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://webprotege.stanford.edu/RPCqh2shXvw4PRCK6FUsPq"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://webprotege.stanford.edu/RDSYbNsQZk8gVSmm1FJGMJ4"/>
+                                <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                                <swrl:argument2 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#registered"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#нужна_регистрация_для_просмотра"/>
+                        <swrl:argument1 rdf:resource="urn:webprotege:ontology:b1b2a202-b618-4541-9e1c-de48b68913d9#user"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
